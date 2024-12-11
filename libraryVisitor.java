@@ -33,8 +33,16 @@ public class libraryVisitor {
         System.out.println(subscribed);
         for(book bookEx : favoriteBooks) {
             bookEx.printPlsHelp();
-            System.out.println();
         }
         System.out.println();
     }
+    public void printWithoutBooks()
+    {
+        System.out.println(name);
+        System.out.println(surname);
+        System.out.println(phone);
+        System.out.println(subscribed);
+        System.out.println();
+    }
+
 }

@@ -11,6 +11,7 @@ import lombok.extern.java.Log;
 @Log
 
 
+
 public class book
 {
     String name;
@@ -35,5 +36,7 @@ public class book
         System.out.println(publishingYear);
         System.out.println(isbn);
         System.out.println(publisher);
+        System.out.println();
     }
+
 }
